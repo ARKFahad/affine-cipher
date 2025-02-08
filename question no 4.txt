@@ -1,0 +1,8 @@
+To decrypt the message that we generated using the affine cipher in C programming,
+we can use the modular inverse property of the multiplication factor 'a'. The key is
+to find the multiplicative inverse of 'a' mod m, denoted as a^-1. The multiplicative
+inverse of 'a' exists if and only if gcd(a, m) = 1. In our case, since both a and m
+are relatively prime (gcd(27, 26) = 1), we can find the multiplicative inverse 
+of a mod 26. To decrypt an affine cipher, we need to use the 
+formula: D(x) = a^-1 * (x - b) % n. We will first calculate a^-1 
+and then apply this formula to each letter in the encrypted message.

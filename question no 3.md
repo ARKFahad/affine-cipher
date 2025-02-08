@@ -1,1 +1,0 @@
-This code applies the affine cipher transformation to a message, using a = 27, b = 5, and m = 26. Note that this code handles both lowercase and uppercase letters. Non-letter characters are left unchanged.
