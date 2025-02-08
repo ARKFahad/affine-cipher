@@ -1,0 +1,34 @@
+## Affine Cipher
+
+An affine cipher is a type of symmetric-key block cipher, and it can be described as follows:
+
+Affine cipher is a method of encrypting data that uses an integer transformation to encode plaintext characters into ciphertext. It is known for its simplicity and ease of implementation.
+
+The formula used in an affine cipher is: 
+
+
+\[E(x) = (a \cdot x + b) \mod m\]
+
+
+where:
+- **E** is the ciphertext character
+- **a** is an integer value between 0 and n-1
+- **x** is the plaintext character
+- **b** is an integer value between 0 and n-2
+- **m** is the number of unique characters in the alphabet (usually 26 for English)
+
+When encrypting, the formula can be modified to:
+
+
+\[E(x) = (a \cdot x + b) \mod m\]
+
+
+where **a** and **b** are determined by a key which is shared among users.
+
+For decryption, the following formula would be used: 
+
+
+\[E(x) = (a' \cdot x + b') \mod m\]
+
+
+where **a'** and **b'** are related with **a** and **b**.
