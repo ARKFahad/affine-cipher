@@ -15,5 +15,5 @@ When encrypting, the formula can be modified to:
 [E(x) = (a \cdot x + b) \mod m]
 where a and b are determined by a key which is shared among users.
 For decryption, the following formula would be used:
-[E(x) = (a*x + b') mod m]
+[E(x) = (a'*x - b') mod m]
 where a' and b' are related with a and b.
